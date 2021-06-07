@@ -1,6 +1,4 @@
-import { ConfigPlugin } from '@expo/config-plugins';
-declare const _default: ConfigPlugin<void | {
-    microphonePermission?: string | undefined;
-    cameraPermission?: string | undefined;
-}>;
+import {ConfigPlugin} from '@expo/config-plugins';
+
+declare const _default: ConfigPlugin<void>;
 export default _default;
